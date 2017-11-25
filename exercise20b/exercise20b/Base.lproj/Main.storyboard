@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="exercise20b" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qFj-qW-Rb0">
+                                <rect key="frame" x="16" y="20" width="343" height="627"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="RVf-bd-V92">
+                                        <rect key="frame" x="-128.5" y="80" width="600" height="468.5"/>
+                                        <subviews>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="E2c-bQ-8qb">
+                                                <rect key="frame" x="249.5" y="0.0" width="101" height="29"/>
+                                                <segments>
+                                                    <segment title="🤯"/>
+                                                    <segment title="😍"/>
+                                                    <segment title="🐮"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="SegmentedAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="CsD-gG-9Nn"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Caption" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ku3-GO-74j">
+                                                <rect key="frame" x="242" y="58" width="116" height="27.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <color key="textColor" red="0.97429201227993889" green="0.97273087832317329" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chicken.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Urx-TM-Smc">
+                                                <rect key="frame" x="0.0" y="115.5" width="600" height="240"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="240" id="vSq-fL-7nb"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bottom Caption" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCL-eX-47C">
+                                                <rect key="frame" x="231.5" y="385.5" width="137.5" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="pnv-7U-0uk">
+                                                <rect key="frame" x="249.5" y="440.5" width="101" height="29"/>
+                                                <segments>
+                                                    <segment title="✌️"/>
+                                                    <segment title="💀"/>
+                                                    <segment title="🤦‍♂️"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="SegmentedAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="Cxr-b5-6Jf"/>
+                                                </connections>
+                                            </segmentedControl>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="RVf-bd-V92" firstAttribute="centerX" secondItem="qFj-qW-Rb0" secondAttribute="centerX" id="1dF-vr-M1r"/>
+                                    <constraint firstItem="RVf-bd-V92" firstAttribute="centerY" secondItem="qFj-qW-Rb0" secondAttribute="centerY" id="QLO-3y-F48"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qFj-qW-Rb0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5CR-5G-WFM"/>
+                            <constraint firstItem="qFj-qW-Rb0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="RZf-1J-Fjh"/>
+                            <constraint firstItem="qFj-qW-Rb0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tjg-7H-P4a"/>
+                            <constraint firstItem="qFj-qW-Rb0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jdo-dM-i8x"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="botCaption" destination="xCL-eX-47C" id="wRP-xc-5ac"/>
+                        <outlet property="botSegmented" destination="pnv-7U-0uk" id="rCv-hU-unT"/>
+                        <outlet property="topCaption" destination="Ku3-GO-74j" id="A0B-bm-pSP"/>
+                        <outlet property="topSegmented" destination="E2c-bQ-8qb" id="Wmp-SR-gNM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="131.78410794602701"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chicken.jpg" width="600" height="600"/>
+    </resources>
+</document>
