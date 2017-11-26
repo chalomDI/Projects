@@ -40,27 +40,27 @@
                         <viewLayoutGuide key="safeArea" id="JcI-C9-t0z"/>
                     </view>
                     <connections>
-                        <segue destination="3Ii-vY-B3h" kind="show" identifier="results" id="ewL-pW-8o9"/>
+                        <segue destination="TmP-eD-NAO" kind="show" identifier="result" id="eJy-1p-Cba"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wlq-tn-B91" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1142" y="66"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="gbp-xg-zdJ">
+        <!--Result View Controller-->
+        <scene sceneID="jRi-Dr-cv0">
             <objects>
-                <viewController id="3Ii-vY-B3h" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="LnY-gx-Znd">
+                <viewController id="TmP-eD-NAO" customClass="ResultViewController" customModule="PersonalityQuizz2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="otm-eE-hdP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="pWm-bY-H7a"/>
+                        <viewLayoutGuide key="safeArea" id="olX-te-P8q"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sr2-EX-Xzi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MpI-JG-4SE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1941" y="73"/>
+            <point key="canvasLocation" x="2118" y="65"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="n5a-Vt-YST">

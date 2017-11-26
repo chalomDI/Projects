@@ -16,32 +16,31 @@ class SecondViewController: BaseViewController {
     @IBOutlet weak var fighting: UISwitch!
     @IBOutlet weak var noise: UISwitch!
     
-    @IBOutlet var result: UILabel!
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is ResultViewController{
+            let vc = segue.destination as? ResultViewController
+            if eating.isOn {
+                vc?.stringPassed = "Congratulation, you are a 🐤"
+            } else if running.isOn{
+                vc?.stringPassed = "Congratulation, you are a 🐶"
+            } else if sleeping.isOn{
+                 vc?.stringPassed = "Congratulation, you are a 🐻"
+            }else if fighting.isOn{
+                 vc?.stringPassed = "Congratulation, you are a 🐱"
+                
+            }else if noise.isOn{
+                vc?.stringPassed = "Congratulation, you are a 🦁"
+            } else {
+                vc?.stringPassed = "You're not an\n animal i guess..."
+        }
+    }
+    }
     
     
     @IBAction func submit(_ sender: Any) {
+        
          performSegue(withIdentifier: "result", sender: nil)
-        
-        if eating.isOn{
-            if running.isOn{
-                if sleeping.isOn{
-                    if fighting.isOn{
-                        if noise.isOn{
-                            result.text = "Congratulation, you are a 🐶"
-                        }
-                        result.text = "Congratulation, you are a 🐻"
-                    }
-                    result.text = "Congratulation, you are a 🐱"
-                }
-            }
-            result.text = "Congratulation, you are a 🦁"
         }
-        
-        let myVC = storyboard?.instantiateViewController(withIdentifier: "ResultViewController") as! ResultViewController
-        myVC.stringPassed = result.text!
-        navigationController?.pushViewController(myVC, animated: true)
-        
-       
-    }
-    
+
 }
+

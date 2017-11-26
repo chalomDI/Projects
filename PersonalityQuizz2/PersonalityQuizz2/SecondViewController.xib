@@ -15,7 +15,6 @@
                 <outlet property="eating" destination="Bty-j9-0Xq" id="46F-eE-qDK"/>
                 <outlet property="fighting" destination="lvA-xi-4nQ" id="jQA-VA-CZE"/>
                 <outlet property="noise" destination="yNp-0J-4fd" id="Brb-Of-arP"/>
-                <outlet property="result" destination="ALE-3o-xDa" id="AlZ-WY-N9m"/>
                 <outlet property="running" destination="2pw-Ty-vfQ" id="wX8-Dw-d2X"/>
                 <outlet property="sleeping" destination="8yl-yx-1Sh" id="9z1-ex-Nsh"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -115,13 +114,6 @@
                         <action selector="submit:" destination="-1" eventType="touchUpInside" id="AeB-j7-jcv"/>
                     </connections>
                 </button>
-                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALE-3o-xDa">
-                    <rect key="frame" x="166" y="508" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" red="0.97429201229999995" green="0.97273087830000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>

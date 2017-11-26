@@ -8,16 +8,16 @@
 
 import UIKit
 
-class ResultViewController: UIViewController {
+class ResultViewController: BaseViewController {
 
     @IBOutlet weak var results: UILabel!
     
-    var stringPassed = ""
+    var stringPassed:String?
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        results.text = stringPassed
+        results?.text = stringPassed
     }
 
     /*
