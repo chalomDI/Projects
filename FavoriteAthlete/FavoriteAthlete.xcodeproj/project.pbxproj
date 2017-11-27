@@ -39,6 +39,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85F340AB1FCC3757002BA4C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85F340A71FCC0277002BA4C2 /* Athlete.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85F340AC1FCC375F002BA4C2 /* SotryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				A94375B11E4648230053B419 /* Main.storyboard */,
+				A94375B61E4648230053B419 /* LaunchScreen.storyboard */,
+			);
+			path = SotryBoards;
+			sourceTree = "<group>";
+		};
+		85F340AD1FCC377D002BA4C2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				85F340A91FCC037B002BA4C2 /* AthleteFormViewController.swift */,
+				A9FE274E1E4A8F0E00F01A14 /* AthleteTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		A94375A11E4648230053B419 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +84,11 @@
 		A94375AC1E4648230053B419 /* FavoriteAthlete */ = {
 			isa = PBXGroup;
 			children = (
+				85F340AD1FCC377D002BA4C2 /* ViewController */,
+				85F340AC1FCC375F002BA4C2 /* SotryBoards */,
+				85F340AB1FCC3757002BA4C2 /* Models */,
 				A94375AD1E4648230053B419 /* AppDelegate.swift */,
-				A94375B11E4648230053B419 /* Main.storyboard */,
-				A9FE274E1E4A8F0E00F01A14 /* AthleteTableViewController.swift */,
-				85F340A71FCC0277002BA4C2 /* Athlete.swift */,
-				85F340A91FCC037B002BA4C2 /* AthleteFormViewController.swift */,
 				A94375B41E4648230053B419 /* Assets.xcassets */,
-				A94375B61E4648230053B419 /* LaunchScreen.storyboard */,
 				A94375B91E4648230053B419 /* Info.plist */,
 			);
 			path = FavoriteAthlete;
