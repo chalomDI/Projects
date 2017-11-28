@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		85F340A81FCC0277002BA4C2 /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F340A71FCC0277002BA4C2 /* Athlete.swift */; };
 		85F340AA1FCC037B002BA4C2 /* AthleteFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F340A91FCC037B002BA4C2 /* AthleteFormViewController.swift */; };
+		85F340AF1FCC44AB002BA4C2 /* PropertyKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F340AE1FCC44AB002BA4C2 /* PropertyKeys.swift */; };
 		A94375AE1E4648230053B419 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94375AD1E4648230053B419 /* AppDelegate.swift */; };
 		A94375B31E4648230053B419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94375B11E4648230053B419 /* Main.storyboard */; };
 		A94375B51E4648230053B419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94375B41E4648230053B419 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		85F340A71FCC0277002BA4C2 /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
 		85F340A91FCC037B002BA4C2 /* AthleteFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthleteFormViewController.swift; sourceTree = "<group>"; };
+		85F340AE1FCC44AB002BA4C2 /* PropertyKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyKeys.swift; sourceTree = "<group>"; };
 		A94375AA1E4648230053B419 /* FavoriteAthlete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteAthlete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94375AD1E4648230053B419 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A94375B21E4648230053B419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				85F340A71FCC0277002BA4C2 /* Athlete.swift */,
+				85F340AE1FCC44AB002BA4C2 /* PropertyKeys.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				85F340AA1FCC037B002BA4C2 /* AthleteFormViewController.swift in Sources */,
 				A9FE274F1E4A8F0E00F01A14 /* AthleteTableViewController.swift in Sources */,
+				85F340AF1FCC44AB002BA4C2 /* PropertyKeys.swift in Sources */,
 				85F340A81FCC0277002BA4C2 /* Athlete.swift in Sources */,
 				A94375AE1E4648230053B419 /* AppDelegate.swift in Sources */,
 			);

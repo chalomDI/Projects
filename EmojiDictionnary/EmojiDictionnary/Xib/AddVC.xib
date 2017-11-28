@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddVC" customModule="EmojiDictionnary" customModuleProvider="target">
+            <connections>
+                <outlet property="descriptionTxtField" destination="ksa-Ve-3GQ" id="cJK-NV-Oct"/>
+                <outlet property="nameTxtField" destination="8b3-E7-SRh" id="ugP-0H-JQj"/>
+                <outlet property="symbolTxtField" destination="A4z-eg-VNm" id="7gI-gm-h6Z"/>
+                <outlet property="usageTxtField" destination="oMz-gj-r0D" id="j8G-Td-vjZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symbol" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXo-CY-9pU">
+                    <rect key="frame" x="8" y="28" width="359" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write Your Emoji Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A4z-eg-VNm">
+                    <rect key="frame" x="8" y="57" width="359" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rN6-X8-hIZ">
+                    <rect key="frame" x="8" y="103" width="359" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Emoji's Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8b3-E7-SRh">
+                    <rect key="frame" x="8" y="132" width="359" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTP-Jx-Cyi">
+                    <rect key="frame" x="8" y="178" width="359" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What is the emoji" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ksa-Ve-3GQ">
+                    <rect key="frame" x="8" y="207" width="359" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TO4-81-3Xq">
+                    <rect key="frame" x="8" y="253" width="359" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What the emoji means" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oMz-gj-r0D">
+                    <rect key="frame" x="8" y="282" width="359" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kn8-wm-t51">
+                    <rect key="frame" x="160" y="349" width="55" height="30"/>
+                    <state key="normal" title="Save"/>
+                    <connections>
+                        <action selector="save:" destination="-1" eventType="touchUpInside" id="12A-5y-RBU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Kn8-wm-t51" secondAttribute="bottom" constant="288" id="03h-yM-JNv"/>
+                <constraint firstItem="oMz-gj-r0D" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="3lj-Vd-je2"/>
+                <constraint firstItem="QXo-CY-9pU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="8" id="4KR-RS-XU0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rN6-X8-hIZ" secondAttribute="trailing" constant="8" id="6W4-TA-yPv"/>
+                <constraint firstItem="A4z-eg-VNm" firstAttribute="top" secondItem="QXo-CY-9pU" secondAttribute="bottom" constant="8" id="8rK-pa-KUL"/>
+                <constraint firstItem="ksa-Ve-3GQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="9pQ-KH-U1L"/>
+                <constraint firstItem="Kn8-wm-t51" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="160" id="Bcz-LF-DQF"/>
+                <constraint firstItem="jTP-Jx-Cyi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="Fds-vj-nrz"/>
+                <constraint firstItem="TO4-81-3Xq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="GCf-1E-sep"/>
+                <constraint firstItem="QXo-CY-9pU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="GJS-bN-Uem"/>
+                <constraint firstItem="jTP-Jx-Cyi" firstAttribute="top" secondItem="8b3-E7-SRh" secondAttribute="bottom" constant="16" id="HCX-YD-4U8"/>
+                <constraint firstItem="ksa-Ve-3GQ" firstAttribute="top" secondItem="jTP-Jx-Cyi" secondAttribute="bottom" constant="8" id="IOC-Lb-dP4"/>
+                <constraint firstItem="8b3-E7-SRh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="K0A-53-9Kb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Kn8-wm-t51" secondAttribute="trailing" constant="160" id="KOH-Vk-bTj"/>
+                <constraint firstItem="A4z-eg-VNm" firstAttribute="top" secondItem="QXo-CY-9pU" secondAttribute="bottom" constant="8" id="NIJ-d0-qRB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8b3-E7-SRh" secondAttribute="trailing" constant="8" id="QWU-kd-gsa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="A4z-eg-VNm" secondAttribute="trailing" constant="8" id="Tac-tj-wYX"/>
+                <constraint firstItem="8b3-E7-SRh" firstAttribute="top" secondItem="rN6-X8-hIZ" secondAttribute="bottom" constant="8" id="a9i-qt-qp3"/>
+                <constraint firstItem="oMz-gj-r0D" firstAttribute="top" secondItem="TO4-81-3Xq" secondAttribute="bottom" constant="8" id="b5I-LB-7Wr"/>
+                <constraint firstItem="rN6-X8-hIZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="c0E-Gd-f6m"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jTP-Jx-Cyi" secondAttribute="trailing" constant="8" id="chK-HG-Iyk"/>
+                <constraint firstItem="TO4-81-3Xq" firstAttribute="top" secondItem="ksa-Ve-3GQ" secondAttribute="bottom" constant="16" id="d7a-5H-8C4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="oMz-gj-r0D" secondAttribute="trailing" constant="8" id="goY-x9-d5l"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QXo-CY-9pU" secondAttribute="trailing" constant="8" id="hEo-p0-pOp"/>
+                <constraint firstItem="rN6-X8-hIZ" firstAttribute="top" secondItem="A4z-eg-VNm" secondAttribute="bottom" constant="16" id="pwu-sX-EKW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ksa-Ve-3GQ" secondAttribute="trailing" constant="8" id="u0t-x0-zDC"/>
+                <constraint firstItem="A4z-eg-VNm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="8" id="vxl-Gi-h61"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TO4-81-3Xq" secondAttribute="trailing" constant="8" id="ynG-3e-D2s"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

@@ -11,9 +11,6 @@ class AthleteFormViewController: UIViewController {
     
     var athlete: Athlete?
     
-    struct PropertyKeys {
-        static let unwind = "UnwindToAthleteTables"
-    }
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var ageTextField: UITextField!
     @IBOutlet weak var leagueTextField: UITextField!
